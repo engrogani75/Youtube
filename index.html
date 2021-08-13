@@ -851,6 +851,14 @@
         </div>
     </div>
     </div>
+         <script>
+        const menuBar = document.getElementsByClassName('menu-bar')[0]
+        const navLeft = document.getElementsByClassName('left-menu')[0]
+
+        menuBar.addEventListener('click', () =>{
+            navLeft.classList.toggle('active')
+        })
+    </script>
 </body>
 
 </html>

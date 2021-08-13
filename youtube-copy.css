@@ -372,4 +372,9 @@ category css start
     .left-menu {
         display: none;
     }
+    
+    .left-menu.active{
+        display: grid;
+        grid-column: 1 / -1;
+    }
 }
